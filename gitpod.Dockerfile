@@ -1,4 +1,5 @@
 FROM ubuntu:22.04
+FROM ubuntu:kinetic
 
 # Install some basics
 RUN apt-get update \
